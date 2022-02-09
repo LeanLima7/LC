@@ -23,4 +23,3 @@ while (contador <= 10);
 return 0;
 }
 
-// deu errado kkk
