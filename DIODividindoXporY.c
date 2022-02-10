@@ -18,10 +18,10 @@ float divisao;
 
 
     if (primeiroNumero < segundoNumero )
-            printf ("Essa divisaoclear nao e' possivel");
+            printf ("Essa divisao nao e' possivel");
     else
     { 
-        printf("%f\n", divisao);
+        printf("%f\n", &divisao);
     }
         
     return 0;
