@@ -5,19 +5,18 @@ int main ()
 
     int contador = 1;
     int variavel;
-    int resultado;
-    resultado = contador * variavel;    
+    int resultado = contador * variavel;    
 
 while (contador <= 10);
-++contador;
+
  {
 
     printf ("Voce quer qual tabuada?");
     scanf ("%i", &variavel);
 
-    printf ("%i vezes %i e' iqual a %i\n",
-            variavel, contador, resultado);
-            
+    printf ("%i vezes %i e' iqual a %i\n" variavel, contador, resultado);
+
+    ++contador;            
 }
 
 return 0;
